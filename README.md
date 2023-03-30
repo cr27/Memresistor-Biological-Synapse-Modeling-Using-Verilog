@@ -1,7 +1,7 @@
 # Neuromorphic-Artificial-Neural-Network-in-Verilog -   Modeled After Research Paper - Link Below
-##Ntinas, Vasileios, et al. “Experimental Study of Artificial Neural Networks Using a Digital Memristor Simulator.” IEEE Transactions on Neural Networks and Learning Systems, vol. 29, no. 10, 2018, pp. 5098–5110., https://doi.org/10.1109/tnnls.2018.2791458.
+Ntinas, Vasileios, et al. “Experimental Study of Artificial Neural Networks Using a Digital Memristor Simulator.” IEEE Transactions on Neural Networks and Learning Systems, vol. 29, no. 10, 2018, pp. 5098–5110., https://doi.org/10.1109/tnnls.2018.2791458.
 
-##Work in Progress:
+Work in Progress:
 
 module memresistor(input [1:0] V_te, input [1:0] V_be, input Valid_V_te, input Valid_V_be, input write_enable, input reset, output reg G);
   parameter G_init = 0.5; // initial conductance value
